@@ -15,34 +15,29 @@ Arduino is an open-source electronics prototype platform based on hardware and s
 Arduino projects can be stand-alone or they can be connected to a computer using USB. Arduino microcontroller is responsible for controlling and interfacing between GPS module and GSM receiver. Arduino can sense the environment by receiving input from a variety of sensors and can display and monitor the sensor data. The Serial Monitor is part of the Arduino IDE software. Its job is to allow both send messages from computer to an Arduino board (over USB) and also to receive messages from the Arduino.
 
 The Global Positioning System (GPS) is a satellite-based navigation system that sends data from satellites. Orbiting Earth to GPS receivers on the ground that can use that data to determine position and the current time anywhere on Earth. GPS module is used to determine position, time and speed. It measures the exact distance with few more satellites and the receivers determine the position of the user and displays it on the map of the electronic appliance. By using four or more satellites, the receivers can determine the three-dimensional position of the user which consists of altitude, latitude and longitude. GPS module sends the data related to tracking position in real time, and it sends so many data in NMEA format. In this paper, our study the concept of the GSM modules that is used a variation of time division multiple access (TDM) and is the most widely used of the three digital wireless telephony technologies TDMA, GSM and CDMA. GSM is the most widely used cell phone technology in the context of GSM phones and GSM network. GSM network providers put customer information on a removable SIM card.
+
 There are three main parts. Firstly, the GPS shield is connected easy to Arduino Uno. GPS Rx (receive) is connected to the Arduino Uno Tx (transmit) and GPS Tx (transmit) Is connected to the Arduino Uno Rx (receive). This is because the Uno (Tx) D11 transmits to the GPS (Rx) and conversely the Uno (Rx) D12 receives from the GPS (Tx). GPS GND&VCC is connected to GND&5V of the Arduino UNO R3. GSM Rx (receive) is connected to the Arduino Uno D9 (transmit) and GSM Tx (transmit) is connected to the Arduino Uno D10 (receive). This is because the Uno (Tx) D1 transmits to the GPS (Rx) and conversely the Uno (Rx) D0 receives from the GPS (Tx) shown in figures. GSM GND&12V (power supply) is connected to the GND&VIN of the arduino UNO R3. The SCL, SDA, VCC, GND of LCD are connected to SCL, SDA, 5V, GND of Arduino UNO R3 as shown in figure below.
 
 ## ADVANTAGES
 
 Commercial fleet operators are by far the largest users of vehicle tracking systems. These systems are used for operational functions such as routing, security, dispatch and collecting on-board information. These are also used for fire detector in large vehicles like train, bus etc. Because the vehicle like train contains large number of people and the sending alert of fire accident can save many lives. The applications for this project are in military, navigation, automobiles, aircrafts, fleet management, remote monitoring, remote control, security systems, tele services, etc.
 
-Fleet monitoring
+• Fleet monitoring  
 
-Vehicle scheduling
+• Vehicle scheduling 
 
-Route monitoring
+• Route monitoring 
 
-Driver monitoring
+• Driver monitoring 
 
-Accident analysis
+• Accident analysis 
 
-Geo-fencing geo-coding.
+• Geo-fencing geo-coding
 
-8. CONCLUSION
+## CONCLUSION
 
 An Android based GPS and GSM integration for vehicle and another objects tracking can be useful instead of using GPS network alone. Tracking system is nowadays the most important system for the people because of our objects is secure. They want their own things security in safe hands this is the main reason. This system is completely integrated and it provides GPS coordinate to a mobile phone where these coordinates are mapped on a Google map. GSM module used in this paper to send and receive messages and can also interfaced with Arduino when using AT command. It can be further extended for multiple applications such as Anti-theft system for cars and bites, managing of public transports likes buses, train and fish boats, and many more similar applications thus, this system can proof to be very helpful in future.
 
 Vehicle tracking system makes better fleet management and which in turn brings large profits. Better scheduling or route planning can enable you handle larger jobs loads within a particular time. Vehicle tracking both in case of personal as well as business purpose improves safety and security, communication medium, performance monitor in gand increases productivity. So in the coming year, it is going to play a major role in our day-to-day living. Main motto of the project is to incorporate different types of sensors so that they help in decrease the chances of losing life in such accident which we can't stop from occurring. Whenever accident is alerted the paramedics are reached to the particular location to increase the chances of life.
-
-DELL
-
-+
-
-X
 
 This device invention is much more useful for the accidents occurred in deserted places and midnights. This vehicle tracking and accident alert feature plays much more important role in day to day life in future.
